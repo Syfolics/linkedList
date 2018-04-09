@@ -30,7 +30,7 @@ public class main {
         myList.display();
         
         System.out.println("==============");
-        
+        myList.RemoveFront();
         myList.display();
 
 

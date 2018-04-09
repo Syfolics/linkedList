@@ -24,7 +24,11 @@ public class ListClass <T> implements ListClassInterface<T>
          size++;
     }
     
-
+    public void RemoveFront ()
+    {
+         head = head.next;
+         size--;
+    }
     
     public void edit(int position, T value)
     {

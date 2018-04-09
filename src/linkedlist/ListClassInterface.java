@@ -11,6 +11,7 @@ package linkedlist;
  */
 public interface ListClassInterface<T> {
     public void insertFront (T item);
+    public void RemoveFront ();
     public void edit(int position, T value);
     public void display();
     
